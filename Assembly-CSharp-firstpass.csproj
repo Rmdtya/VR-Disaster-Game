@@ -1192,6 +1192,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{B94AF3E9-BC8F-2395-B4C6-4C4225F0E1D5}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
       <Project>{198BD593-F8B3-CC70-5C97-98C0072EBD13}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>

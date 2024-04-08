@@ -96,6 +96,7 @@
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\Analytics\Behaviours\XrcActiveInteractableStationAnalytics.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\UI_3D\Scripts\XRLever.cs" />
     <Compile Include="Assets\Addons\Scripts\UIAudio.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\DemoSceneAssets\Scripts\IncrementUIText.cs" />
     <Compile Include="Assets\Script\Other\InventoryVR.cs" />
     <Compile Include="Assets\Script\GamePlay\TeleportCube.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\SocketInteractors\Scripts\KeyLockSystem\IKeychain.cs" />
@@ -104,6 +105,8 @@
     <Compile Include="Assets\Addons\XRI_Examples\VRWalkthrough\Scripts\WalkthroughTriggers\ButtonPressTrigger.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\HoverHighlight\Scripts\MaterialHighlight.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\Analytics\Behaviours\XrcSocketInteractorsStationAnalytics.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\DestroySelf.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\HoverHighlight\Scripts\RendererCaptureDepth.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\VRWalkthrough\Scripts\Walkthrough.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\VRWalkthrough\Scripts\WaypointCurve.cs" />
@@ -111,6 +114,7 @@
     <Compile Include="Assets\Addons\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\OnAnimationEvent.cs" />
     <Compile Include="Assets\Addons\BOKI\LowPolyNature\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\GazeInputManager.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\AnimationEventActionBegin.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\SocketInteractors\Scripts\KeyLockSystem\Keychain.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\InputMediator.cs" />
@@ -119,8 +123,10 @@
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\InteractionAnimator.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Props\Scripts\OnTrigger.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\ObjectSpawner.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\UI_3D\Scripts\XRSlider.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\LocomotionManager.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\Analytics\Behaviours\XrcPhysicsInteractionStationAnalytics.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\Addons\BOKI\LowPolyNature\Scripts\FadeInOut.cs" />
@@ -144,6 +150,7 @@
     <Compile Include="Assets\Addons\XRI_Examples\UI_3D\Scripts\ClawMachine\UfoAbductionForce.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\Global\Scripts\AutoSocketAttach.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\VRWalkthrough\Scripts\WalkthroughStep.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Scripts\DynamicMoveProvider.cs" />
     <Compile Include="Assets\Addons\XRI_Examples\VRWalkthrough\Scripts\UI\LazyFollow.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +160,7 @@
     <None Include="Assets\Addons\XRI_Examples\HoverHighlight\Shaders\TransparentPulse.shader" />
     <None Include="Assets\Art\Audio\Kenney Audio\kenney_sci-fi-sounds\License.txt" />
     <None Include="Assets\Art\Fonts\socake\More Info.txt" />
+    <None Include="Assets\Samples\XR Interaction Toolkit\2.5.2\Starter Assets\Tunneling Vignette\TunnelingVignette.shader" />
     <None Include="Assets\Art\Audio\Kenney Audio\kenney_interface-sounds\License.txt" />
     <None Include="Assets\Art\Audio\Kenney Audio\kenney_digital-audio\License.txt" />
     <None Include="Assets\Addons\XRI_Examples\UI_2D\Shaders\Silhouette.cginc" />
@@ -1273,6 +1281,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{68B2A537-FEE9-28EE-E829-BB1632DCB7C3}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{B94AF3E9-BC8F-2395-B4C6-4C4225F0E1D5}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
       <Project>{198BD593-F8B3-CC70-5C97-98C0072EBD13}</Project>
